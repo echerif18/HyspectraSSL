@@ -14,7 +14,7 @@ The goal is to benchmark various semi- and self- supervised learning strategies 
 ## 📂 Dataset
 
 Dataset available at:  
-👉 [Hugging Face – GreenHyperSpectra]() (link TBD)
+👉 [Hugging Face – GreenHyperSpectra](https://huggingface.co/datasets/Avatarr05/GreenHyperSpectra) (link TBD)
 
 Place the downloaded complete dataset under `Datasets/`. 
 1. You can run `scripts/Split_data.py` to download the complete directories of the dataset + create unlabeled splits for the experiements (for this option intall git lfs [sudo apt-get install git-lfs, git lfs install])
@@ -172,7 +172,7 @@ python scripts/MAE_downstreamReg.py \
 ## 💾 Pretrained Models
 
 Pretrained models can be found here:  
-👉 [GreenHyperSpectra Pretrained Checkpoints]() (link TBD)
+👉 [GreenHyperSpectra Pretrained Checkpoints](https://huggingface.co/Avatarr05/Multi-trait_SSL/tree/main) (link TBD)
 
 ---
 
