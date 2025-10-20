@@ -16,6 +16,10 @@ The goal is to benchmark various semi- and self- supervised learning strategies 
 Dataset available at:  
 👉 [Hugging Face – GreenHyperSpectra](https://huggingface.co/datasets/Avatarr05/GreenHyperSpectra)
 
+<p align="center">
+  <img src="./MultiSourceIcon.png" alt="DatasetIcon" width="40%"/>
+</p>
+
 Place the downloaded complete dataset under `Datasets/`. 
 1. You can run `scripts/Split_data.py` to download the complete directories of the dataset + create unlabeled splits for the experiements (for this option intall git lfs [sudo apt-get install git-lfs, git lfs install])
 2. You can check `notebooks/DataLoad_chunks.ipynb`
