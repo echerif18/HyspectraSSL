@@ -17,7 +17,7 @@ Dataset available at:
 👉 [Hugging Face – GreenHyperSpectra](https://huggingface.co/datasets/Avatarr05/GreenHyperSpectra)
 
 <p align="center">
-  <img src="./MultiSourceIcon.png" alt="DatasetIcon" width="40%"/>
+  <img src="./IconHyperspctra.png" alt="DatasetIcon" width="40%"/>
 </p>
 
 Place the downloaded complete dataset under `Datasets/`. 
