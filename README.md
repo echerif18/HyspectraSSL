@@ -1,6 +1,6 @@
 # 🌱 GreenHyperSpectra: A Multi-Source Hyperspectral Dataset for Global Vegetation Trait Prediction
 
-This repository provides training scripts and baseline experiments for semi- and self-supervised learning on hyperspectral reflectance data described in this paper (link TBD). Implemented methods include:
+This repository provides training scripts and baseline experiments for semi- and self-supervised learning on hyperspectral reflectance data described in this [paper](https://arxiv.org/abs/2507.06806). Implemented methods include:
 
 - Masked Autoencoders (MAE)
 - Generative Adversarial Networks (SR-GAN)
@@ -14,7 +14,7 @@ The goal is to benchmark various semi- and self- supervised learning strategies 
 ## 📂 Dataset
 
 Dataset available at:  
-👉 [Hugging Face – GreenHyperSpectra](https://huggingface.co/datasets/Avatarr05/GreenHyperSpectra) (link TBD)
+👉 [Hugging Face – GreenHyperSpectra](https://huggingface.co/datasets/Avatarr05/GreenHyperSpectra)
 
 Place the downloaded complete dataset under `Datasets/`. 
 1. You can run `scripts/Split_data.py` to download the complete directories of the dataset + create unlabeled splits for the experiements (for this option intall git lfs [sudo apt-get install git-lfs, git lfs install])
@@ -172,7 +172,7 @@ python scripts/MAE_downstreamReg.py \
 ## 💾 Pretrained Models
 
 Pretrained models can be found here:  
-👉 [GreenHyperSpectra Pretrained Checkpoints](https://huggingface.co/Avatarr05/Multi-trait_SSL/tree/main) (link TBD)
+👉 [GreenHyperSpectra Pretrained Checkpoints](https://huggingface.co/Avatarr05/Multi-trait_SSL/tree/main)
 
 ---
 
@@ -184,7 +184,15 @@ Run the corresponding Jupyter notebooks in `notebooks/` to evaluate the models a
 
 ## 📣 Citation
 
-If you use this work, please cite the corresponding publication (link TBD).
+If you use this work, please cite the corresponding publication:
+```bibtex
+@article{cherif2025greenhyperspectra,
+  title={GreenHyperSpectra: A multi-source hyperspectral dataset for global vegetation trait prediction},
+  author={Cherif, Eya and Ouaknine, Arthur and Brown, Luke A and Dao, Phuong D and Kovach, Kyle R and Lu, Bing and Mederer, Daniel and Feilhauer, Hannes and Kattenborn, Teja and Rolnick, David},
+  journal={arXiv preprint arXiv:2507.06806},
+  year={2025}
+}
+```
 
 ---
 
